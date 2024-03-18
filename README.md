@@ -6,7 +6,7 @@ Como Executar
 Certifique-se de ter o PHP instalado em seu sistema ou de ter acesso a um servidor web com suporte ao PHP.
 Clone este repositório em sua máquina local usando o comando:
 
-git clone https://github.com/seu-usuario/portfolio-php.git
+git clone https://github.com/arissandro/portfolio-php.git
 Navegue até o diretório do projeto que deseja executar.
 Execute o arquivo PHP desejado usando o interpretador PHP ou abra-o em um navegador web, dependendo do tipo de projeto. Por exemplo, para executar um arquivo chamado meuArquivo.php via terminal:
 
