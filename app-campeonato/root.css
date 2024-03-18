@@ -1,0 +1,26 @@
+@import "reset.css";
+
+:root {
+    --cor-gradient-fundo:  #7EBB52, #6077BA;
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-btn-hover: #03A64A;
+    --cor-btn-cheked-hover: #4ed88a;
+    --cor-btn: #EEDD41;
+    --cor-menu-link: #003E77;
+    --cor-import: lightgray;
+
+    --font-size-titulo: 62px;
+    --font-size-subtitulo: 34px;
+    --font-size-descricao: 24px;
+    --font-size-texto: 16px;
+
+    --font-family-titulo: "Montserrat", Sans-serif;
+    --font-family-subtitulo: "Roboto", Sans-serif;
+    --font-family-texto: "Montserrat", Sans-serif;
+    
+    --font-weight: 800;
+    
+    --letter-spacing-titulo: 3.5px; /*espaçamento da font*/
+  
+}

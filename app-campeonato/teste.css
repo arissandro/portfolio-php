@@ -1,0 +1,171 @@
+@import "root.css";
+
+body {
+    background: linear-gradient(to bottom, var(--cor-gradient-fundo));
+    width: 100vw;
+
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.titulo {
+    color: var(--cor-secundaria);
+    font-size: var(--font-size-titulo);
+    font-family: var(--font-family-titulo);
+    font-weight: var(--font-weight);
+    text-align: center;
+    letter-spacing: var(--letter-spacing-titulo);
+}
+
+.subtitulo {
+    color: var(--cor-secundaria);
+    font-size: var(--font-size-subtitulo);
+    font-family: var(--font-family-subtitulo);
+    text-align: center;
+}
+
+.categoria-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.categortia-select{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.descricao {
+    color: var(--cor-secundaria);
+    font-size: var(--font-size-descricao);
+    font-family: var(--font-family-subtitulo);
+    text-align: center;
+    padding: 10px;
+}
+
+.nome-torneio{
+    font-size: var(--font-size-texto);
+    font-family: var(--font-family-texto);
+    color: var(--cor-secundaria);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+}
+.categortia-select{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.times-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+   
+}
+
+.times-existentes-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+.times {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: none;
+    overflow: auto;
+    outline: none;
+   
+}
+
+
+
+
+.times option,ul li {
+    padding: 10px;
+    border: 1px solid var(--cor-primaria);
+    margin: 20px 0;
+    background: var(--cor-secundaria);
+    font-size: var(--font-size-texto);
+    font-family: var(--font-family-texto);
+    list-style: none;
+}
+
+.times option::-moz-focus-inner {
+    background-color: transparent;
+    border: 0;
+}
+
+.times option:focus {
+    background-color: transparent;
+}
+
+
+.times option.selected,
+.lista-times .selected {
+    background-color: #ffd700; /* ou a cor de destaque que preferir */
+    color: #000; /* cor do texto quando selecionado */
+}
+
+
+.times option:hover{
+    background: var(--cor-btn-hover);
+    color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.btn {
+    text-decoration: none;
+    flex: 1;
+    background-color: var(--cor-btn);
+    border: 1px solid var(--cor-primaria);
+    color: var(--cor-primaria);
+    font-family: var(--font-family-texto);
+    font-size: var(--font-size-texto);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s, border 0.3s;
+    margin: 10px 10px;
+    border-radius: 3px;
+    width: 10%;
+}
+
+.btn:hover {
+    color: var(--cor-btn-hover);
+    border: 1px solid var(--cor-btn-hover);
+    cursor: pointer;
+}
+
+.rodape-texto {
+    text-align: center;
+    padding: 10px;
+    color: var(--cor-secundaria);
+}
+
+
+
+
